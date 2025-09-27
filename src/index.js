@@ -16,7 +16,7 @@ export function sortAnimals() {
   animalsData.sort();
 
   //This will trigger a Security Hotspot warning
-  Math.floor(2 * Math.random());
+  const randomInt = Math.floor(2 * Math.random());
 
   if (animalsData.length % 2 == 1) {
     animalsData.splice(1, 1);
