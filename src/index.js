@@ -13,10 +13,10 @@ const animalsData = [
 
 export function sortAnimals() {
   //This will trigger a Bug warning
-  animalsData.sort();
+  animalsData.sort((a, b) => a.animal.localeCompare(b.animal));
 
   //This will trigger a Security Hotspot warning
-  Math.floor(2 * Math.random());
+  const randomInt = Math.floor(2 * Math.random());
 
   if (animalsData.length % 2 == 1) {
     animalsData.splice(1, 1);
