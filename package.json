@@ -1,0 +1,27 @@
+{
+  "name": "sonar-demo",
+  "version": "1.0.0",
+  "description": "Demo project for Sonar Codelab",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "----": "-------------------------",
+    "ci:test": "jest --coverage --watchAll=false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refactorproject-ingenieria-software/sonar-intro-codelab-starter.git"
+  },
+  "author": "Natalia Gherardi & Alejandro Gonzalez",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/refactorproject-ingenieria-software/sonar-intro-codelab-starter/issues"
+  },
+  "homepage": "https://github.com/refactorproject-ingenieria-software/sonar-intro-codelab-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
